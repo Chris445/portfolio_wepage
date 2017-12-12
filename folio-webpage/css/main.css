@@ -1,0 +1,256 @@
+html {
+  font-size: 100%;
+  line-height: 1.15;
+  }
+
+
+ h1 {
+    font: bold 2.5em/1.15 "arial black", sans-serif;
+    letter-spacing: -.04em;
+  }
+
+body {
+  width: 90%;
+  max-width: 70em;
+  margin: 1em auto;
+  color:#000033;
+  scroll-behavior: smooth;
+}
+
+figure,
+figcaption {
+  margin: 0;
+  }
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+
+  }
+
+#banner-hero {
+  max-height: 120%;
+  position: relative;
+  }
+
+.layer {
+  position: absolute;
+  width: 100%;
+  }
+
+#banner {
+  text-align: center;
+  }
+
+#nav {
+  text-align: center;
+  }
+
+#nav ul {
+  list-style: none;
+  padding-left: 0;
+  }
+
+
+
+#nav li {
+  margin: .5em 0;
+  }
+
+figcaption {
+  /* margin: 3em; */
+}
+
+#nav li a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px dashed #000;
+  }
+
+section.nav {
+  color: #ffffff;
+}
+
+
+#name {
+   text-align:center;
+}
+
+#about {
+  margin: 1em;
+  max-width: 40%;
+  min-width: 100%;
+
+  }
+
+#about {
+margin-top: 8em;
+margin-top: 8em;
+
+
+}
+
+#hero {
+  margin-bottom: 4em;
+  }
+
+/*
+#3dwork  {
+  background: #000000;
+ */
+}
+
+/* LINE */
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+  p {
+    margin-bottom: 5em;
+  }
+
+/* IMAGES */
+  #fig-1 {
+  margin-left: 0em;
+  margin-top: 15em;
+  }
+
+ #fig-2 {
+  margin-left: 0em;
+  margin-top: 15em;
+  }
+
+/* HEADSHOT */
+  figure figcaption {
+  margin-top: 7%;
+  }
+
+/*
+#side-images {
+  float: left;
+  size: 50%;
+} */
+
+
+
+
+figure.headshot {
+  display: block;
+  width: 7.5em;
+  height: 7.5em;
+  border: .5em solid #eee;
+  border-radius: 50%;
+  margin: .25em auto .75em;
+  overflow: hidden;
+}
+
+
+figure.headshot  {
+  float: left;
+  margin-top: 4em;
+  margin-right: 0.7em;
+  margin-bottom: -0.1em;
+}
+
+/*
+#about {
+  display: block;
+  background-color:#eee;
+}
+ */
+
+
+@media (min-width: 160em) {
+
+
+#L-side1 {
+margin-top: 17em;
+margin-right: -20em;
+margin-left: 5em;
+
+}
+
+#fig--1 {
+
+ position: absolute;
+ margin-top: 2em;
+ margin-left: 60em;
+}
+
+#r-side1 {
+  margin-left: 2em;
+
+}
+
+#fig-0 {
+  position: absolute;
+  margin-left: -40em;
+}
+#side-hr {
+  display:none;
+}
+
+
+
+
+}
+@media (min-width: 48em) {
+
+/*
+#L-side1 {
+ position: relative;
+margin-top: 17em;
+margin-right: -20em;
+margin-left: 5em;
+
+}
+
+
+#fig-0 {
+  position: absolute;
+  margin-left: -40em;
+}
+ */
+
+
+#nav li {
+  display: inline;
+  margin-right: 1em;
+  }
+
+
+
+
+#fig-1 {
+
+}
+
+#fig-2 {
+
+}
+
+figure {
+  overflow: hidden;
+  }
+
+figure img {
+  float: left;
+  }
+
+figure figcaption {
+  margin-left: 50%;
+  }
+
+
+
+}
