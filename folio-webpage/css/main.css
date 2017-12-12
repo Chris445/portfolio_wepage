@@ -53,6 +53,21 @@ img {
   padding-left: 0;
   }
 
+/* THIS IS TO KEEP THE TEXT OF THE LEFT SIDE BARS FURTHER APART */
+/*
+#l-side2,
+#L-side1 {
+
+min-width: 50%;
+}
+ */
+
+
+#left-fig2,
+#fig-0 {
+  margin-top: 5em;
+}
+
 
 
 #nav li {
@@ -122,12 +137,12 @@ hr {
 /* IMAGES */
   #fig-1 {
   margin-left: 0em;
-  margin-top: 15em;
+  margin-top: 5em;
   }
 
  #fig-2 {
   margin-left: 0em;
-  margin-top: 15em;
+  margin-top: 5em;
   }
 
 /* HEADSHOT */
@@ -169,41 +184,73 @@ figure.headshot  {
 }
  */
 
+/* #fig--1 */
 
-@media (min-width: 160em) {
+ #side-hr
+ #side-hr2 {
+ margin-bottom: 5em;
+}
 
+/* BIG SCREEN! */
+@media (min-width: 154em) {
 
+#l-side2,
 #L-side1 {
-margin-top: 17em;
+margin-top: 20em;
 margin-right: -20em;
 margin-left: 5em;
 
 }
 
+
+/* Right figure */
 #fig--1 {
 
  position: absolute;
+ left: 25em;
  margin-top: 2em;
  margin-left: 60em;
 }
 
 #r-side1 {
-  margin-left: 2em;
+  margin-left: 10em;
+  margin-top: 5em;
 
 }
 
+
+
+/* LEFT IMAGES */
+#left-fig2,
 #fig-0 {
   position: absolute;
   margin-left: -40em;
 }
+
+/* SIDE DIV LINES */
+#side-hr2,
 #side-hr {
-  display:none;
-}
-
-
-
+position: absolute;
+margin-left: 10em;
+  /* display:none; */
 
 }
+
+
+/* Spacing between left side images */
+
+
+
+#left-fig2 {
+  margin-top: 10em;
+  }
+
+
+
+
+}
+
+/* lil'screen */
 @media (min-width: 48em) {
 
 /*
@@ -221,6 +268,11 @@ margin-left: 5em;
   margin-left: -40em;
 }
  */
+
+
+
+
+
 
 
 #nav li {
